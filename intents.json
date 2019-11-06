@@ -1,0 +1,59 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Good evening", "Good morning", "Good afternoon", "Hey", "Ssup"],
+         "responses": ["Hi. How can I help you?", "Hello. How may I assist you today?", "Hi there, how can I help?", "Hi. What can I help you with?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "Farewell", "Kwaheri", "See you", "See ya", "It was nice talking to you", "Talk to you soon"],
+         "responses": ["Goodbye. Have a nice day.", "Talk to you later", "Bye! Have a nice day", "Farewell. It was nice talking to you"],
+         "context_set": ""
+        },
+        {"tag": "location_info",
+         "patterns": [
+           "Do you have a shop in CBD?",
+           "Do you have a shop in Nairobi?",
+           "List of locations please",
+           "What are your location?",
+           "Where are you located?",
+           "Where can i find you?",
+           "Where can I find your stores?",
+           "Where are you located in Nairobi?"],
+         "responses": ["Our Nairobi store is located on the 2nd floor of Imenti House on Moi Avenue, within the Central Business District (CBD)."],
+         "context_set": ""
+        },
+        {"tag": "hours_info",
+         "patterns": [
+           "when are you guys open?",
+           "what are your hours?",
+           "hours of operation?",
+           "Are you open on Sundays?",
+           "Are you open on public holidays?",
+           "From what time to what time is your store open?",
+           "What are the hours of operation?",
+           "When do you close?",
+           "When do you open?",
+           "What time do you open?"],
+         "responses": ["We are open 8am-5pm Monday-Friday, except on public holidays"],
+         "context_set": ""
+        },
+        {
+          "tag": "thank_you",
+          "patterns": ["Appreciate it", "Asante", "Thank you", "Thanx", "Thanks", "Thnx"],
+          "responses": ["You're welcome. Please let me know if there's anything else you need.", "Happy to help :)", "No problem. Let me know if there is anything else I can help you with."],
+          "context_set": ""
+        },
+        {
+          "tag": "unsubscribe_promotional_messages",
+          "patterns": [
+            "How can I unsubscribe from any premium rate service messages?",
+            "How can I unsubscribe from marketing messages?",
+            "How do I block annoying promotional messages?",
+            "I don't want any marketing messages",
+            "Please stop sending me promotional messages",
+            "Remove marketing SMS"],
+          "responses": ["To unsubscribe from promotional/marketing messages, kindly dial *456*9*5# on your mobile phone. Select <Stop Promotional Messages>, enter the Sender NAME you wish to STOP and press Send. You will then be unsubscribed from receiving further promotional messages from the sender."],
+          "context_set": []
+        }
+   ]
+}

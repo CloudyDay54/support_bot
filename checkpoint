@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/rodney/PycharmProjects/support_bot/model.tflearn"
+all_model_checkpoint_paths: "/home/rodney/PycharmProjects/support_bot/model.tflearn"
